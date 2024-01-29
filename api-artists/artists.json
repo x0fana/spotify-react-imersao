@@ -1,0 +1,22 @@
+{
+    "artists": [
+      { "id": 1, "name": "Foo Fighters", "genre": "Rock", "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15" },
+      { "id": 2, "name": "Michael Jackson", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa" },
+      { "id": 3, "name": "Emicida", "genre": "Hip Hop", "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068" },
+      { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
+      { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
+      { "id": 6, "name": "Arlindo Cruz", "genre": "Samba e Pagode", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
+      { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
+      { "id": 8, "name": "The Weeknd", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab67616100005174214f3cf1cbe7139c1e26ffbb" },
+      { "id": 9, "name": "Queen", "genre": "Rock", "urlImg": "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42" },
+      { "id": 10, "name": "Linkin Park", "genre": "Metal", "urlImg": "https://i.scdn.co/image/ab6761610000e5eb811da3b2e7c9e5a9c1a6c4f7" },
+      { "id": 11, "name": "Beyoncé", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab6761610000e5eb12e3f20d05a8d6cfde988715" },
+      { "id": 12, "name": "Post Malone", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab6761610000e5eb6be070445b03e0b63147c2c1" },
+      { "id": 13, "name": "Eluveitie", "genre": "Metal", "urlImg": "https://i.scdn.co/image/ab6761610000e5ebe8581fc1b573119b7eb0b69b" },
+      { "id": 14, "name": "Lady Gaga", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab6761610000e5ebc8d3d98a1bccbe71393dbfbf" },
+      { "id": 15, "name": "Lynyrd Skynyrd", "genre": "Rock", "urlImg": "https://i.scdn.co/image/ab6761610000e5eb451eb07ddc6e68d3e474c2bf" },
+      { "id": 16, "name": "Slipknot", "genre": "Metal", "urlImg": "https://i.scdn.co/image/ab67616100005174ff9f4de8c13f6f563acbfaf1" },
+      { "id": 17, "name": "Kendrick Lamar", "genre": "Rap", "urlImg": "https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022" }
+    ]
+
+  }

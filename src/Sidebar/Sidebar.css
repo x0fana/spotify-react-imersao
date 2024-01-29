@@ -1,0 +1,217 @@
+.sidebar{
+    position: fixed;
+    top: 0; /* ficar sempre no topo (sempre com fixed ou relative) */
+    left: 0; /* ficar sempre à esquerda (sempre com fixed ou relative)*/
+    bottom: 0;
+    padding: 0.5rem;
+    width: 21.25rem;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+.sidebar .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.80rem 0 0 1rem;
+}
+
+.sidebar .logo img {
+    width: 5rem;
+}
+
+.sidebar nav ul{
+    margin-top: 0.5rem;
+    padding: 0 0.666rem 0.666rem 1.125rem;
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    padding: 0.80rem 0;
+
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 0.934rem;
+
+}
+
+.sidebar nav ul li a:hover{
+    color: #fff;
+}
+
+.sidebar nav ul li a i{
+    margin-right: 1.25rem;
+}
+
+.sidebar .fa-house, .fa-magnifying-glass, .fa-headphones{
+    font-size: 1.25rem;
+}
+
+
+
+/* Aqui começa Sua biblioteca */
+
+.library{
+    background-color: #121212;
+    border-radius: 0.5rem;
+    /* padding: 0 0.25rem; */
+    color:#b3b3b3;
+    margin-top: -0.375rem;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.library .library__content__button{
+    display: flex;
+    background-color: transparent;
+    border: 0;
+    font-weight: 550;
+    font-size: 0.934rem;
+    cursor: pointer;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.library .library__content__button:hover{
+    color: #fff;
+}
+
+.library .library__content i{
+    margin-top: 0.5rem;
+    padding: 0 0.934rem 0.666rem 1.25rem;
+    margin-right: 0rem;
+}
+
+.library .library__content .fa-plus{
+    margin: 0.934rem 0.666rem 0.666rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.library .library__content .fa-plus:hover{
+    color: #fff;
+}
+
+
+/* Cards de playlist */
+.library .playlist{
+    background-color: #232323;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin: 0.5rem 0.25rem 1.25rem 0.25rem;
+}
+
+.library .playlist span{
+    margin: 0.5rem 0.25rem;
+    color: white;
+    font-size: 0.934rem;
+    font-weight: 550;
+}
+
+.library .playlist p{
+    margin: 1rem 0.25rem;
+    color: white;
+    font-size: 0.866rem;
+}
+
+.library .playlist .playlist__button{
+    color: #121212;
+    background-color: #fff;
+    border: 0;
+    border-radius: 1.25rem;
+    padding: 0.666rem 1rem;
+    cursor: pointer;
+    font-size: 0.80rem;
+    margin: 0.5rem 0.25rem;
+    font-weight: 550;
+    transition: transform 0.1s;
+}
+
+.library .playlist .playlist__button:hover{
+    transform: scale(1.03);
+}
+
+.sidebar .cookies{
+    margin: 0.25rem 1.25rem 2.95rem 1.25rem;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-size: 0.6875rem;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.sidebar .links{
+    display: inline-block;
+    margin: 1.875rem 0.866rem 0 1.25rem;
+}
+
+.sidebar .links a{
+    color: #b3b3b3;
+    font-size: 0.666rem;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0.5rem 1.4rem 0.5rem 0rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offer__scroll-container2 {
+    margin: 0rem 0.25rem;
+    overflow-y: auto;
+  }
+  
+
+  /* SCROLL */
+.offer__scroll-container2 {
+    max-height: 25vh;
+    overflow-y: auto;
+  }
+  
+  .offer__scroll-container2::-webkit-scrollbar {
+    width: 0.0625rem;
+  }
+
+
+.library .language{
+    align-items: center;
+    background-color: transparent;
+    border: 0.0063rem solid #b3b3b3;
+    border-radius: 1.25rem;
+    font-weight: 550;
+    font-size: 0.866rem;
+    padding: 0.5rem 0.934rem 0.5625rem 0.934rem;
+    color: white;
+    margin: 0 0 2.60rem 1.25rem;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.library .fa-globe{
+    margin-right: 0.3125rem;
+}
+
+.library .language:hover{
+    transform: scale(1.03);
+    border: 0.1rem solid #fff;
+}

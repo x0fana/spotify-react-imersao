@@ -1,0 +1,215 @@
+body{
+  background-color: #000;
+  font-family: "Helvetica", sans-serif;
+}
+@media screen and (max-width: 1350px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+
+  .cards {
+    position: relative;
+    width: 15rem !important;
+    height: 13.75rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+}
+
+@media screen and (max-width: 1270px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}
+
+@media screen and (max-width: 1170px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+
+  .cards {
+      position: relative;
+      width: 192px !important;
+      height: 220px;
+      overflow: hidden;
+      border-radius: 8px;
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 20rem !important;
+    height: 3rem;
+    margin-left: 0.9375rem;
+    background-color: #242424;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid transparent;
+}
+}
+
+@media screen and (max-width: 1070px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  .cards {
+      position: relative;
+      width: 13.65rem !important;
+      height: 13.75rem;
+      overflow: hidden;
+      border-radius: 0.5rem;
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 16.875rem !important;
+    height: 3rem;
+    margin-left: 0.9375rem;
+    background-color: #242424;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid transparent;
+}
+}
+
+@media screen and (max-width: 1015px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  .cards {
+      position: relative;
+      width: 12.90rem !important;
+      height: 13.75rem;
+      overflow: hidden;
+      border-radius: 0.5rem;
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 15.3125rem !important;
+    height: 3rem;
+    margin-left: 0.9375rem;
+    background-color: #242424;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid transparent;
+}
+
+.header__login .subs {
+  color: #b3b3b3;
+  font-size: 0.875rem;
+  background-color: transparent;
+  margin-right: 1.25rem !important;
+  border: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+}
+
+@media screen and (max-width: 955px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr !important;
+  }
+
+  .cards {
+      position: relative;
+      width: 17.25rem !important;
+      height: 13.75rem;
+      overflow: hidden;
+      border-radius: 0.5rem;
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 12.5rem !important;
+    height: 3rem;
+    margin-left: 0.9375rem;
+    background-color: #242424;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid transparent;
+}
+
+.header__login .subs {
+  color: #b3b3b3;
+  font-size: 0.875rem;
+  background-color: transparent;
+  margin-right: 1.25rem !important;
+  border: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+}
+
+@media screen and (max-width: 910px){
+  .offer__list-item{
+      grid-template-columns: 1fr 1fr !important;
+  }
+
+  .cards {
+      position: relative;
+      width: 14rem !important;
+      height: 13.75rem;
+      overflow: hidden;
+      border-radius: 0.5rem;
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 10.666rem !important;
+    height: 3rem;
+    margin-left: 0.9375rem;
+    background-color: #242424;
+    border-radius: 6.25rem;
+    border: 0.0625rem solid transparent;
+}
+
+.header__login .subs {
+  color: #b3b3b3;
+  font-size: 0.7969rem !important;
+  font-weight: 550;
+  background-color: transparent;
+  margin-right: 1.25rem !important;
+  border: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.header__login .login {
+  width: 4.8125rem !important;
+  height: 3rem;
+  color: #121212;
+  font-size: 0.8438rem !important;
+  font-weight: 700;
+  border-radius: 2.5rem;
+  border: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.disclaimer-premium button {
+  color: #121212;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2.5rem;
+  padding: 1rem 1.25rem !important;
+  cursor: pointer;
+  font-size: 0.7813rem !important;
+  font-weight: 550;
+  margin-inline-end: 1.5rem;
+  flex-shrink: 0;
+  transition: transform 0.1s;
+}
+.disclaimer-premium .disclaimer-premiumsubtitle {
+  font-weight: 500;
+  font-size: 0.866rem !important;
+}
+
+.disclaimer-premium .disclaimer-premiumtitle {
+  font-size: 0.80rem !important;
+  font-weight: 550;
+  margin-bottom: -0.6875rem;
+}
+}
