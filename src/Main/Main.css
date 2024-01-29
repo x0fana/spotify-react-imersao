@@ -156,7 +156,7 @@ h2 {
 }
 
 .offer__scroll-container::-webkit-scrollbar {
-  width: 0.0625rem; 
+  width: 0.0625rem;
 }
 
 /* Thumb */
@@ -184,9 +184,29 @@ h2 {
 .cards {
   position: relative;
   /* width: 13.75rem; */
-  height: 14rem; 
+  height: 14rem;
   overflow: hidden;
-  border-radius: 0.5rem; 
+  border-radius: 0.5rem;
+}
+
+.cards:hover img {
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  transform: rotate(10deg) translate(1%, -1%);
+  transition: transform 0.4s linear;
+  box-shadow: 0rem 0.25rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.cards:hover img {
+  transform: rotate(10deg) translate(1%, -1%);
+}
+
+.cards img {
+  transition: transform 0.4s linear;
 }
 
 .cards span {
