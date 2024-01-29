@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faSearch, faHeadphones, faPlus, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () =>{
-    return(
+    return (
         <div className="sidebar">
             <nav className="sidebar__navigation">
                 <div className="logo">
@@ -14,27 +14,27 @@ const Sidebar = () =>{
                     </a>
                 </div>
                 
-                    <ul>
-                        <li>
-                            <a href="">
-                                <i><FontAwesomeIcon icon={faHouse} /></i>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i><FontAwesomeIcon icon={faSearch} /></i>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
-                
+                <ul>
+                    <li>
+                        <a href="">
+                            <i><FontAwesomeIcon icon={faHouse} /></i>
+                            <span>Início</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <i><FontAwesomeIcon icon={faSearch} /></i>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </nav>
             
             <section className="library">
                 <div className="library__content">
                     <button className="library__content__button">
-                    <i><FontAwesomeIcon icon={faHeadphones} /></i>
+                        <i><FontAwesomeIcon icon={faHeadphones} /></i>
                         <span>Sua biblioteca</span> 
                     </button>
                         <i><FontAwesomeIcon icon={faPlus} /></i>

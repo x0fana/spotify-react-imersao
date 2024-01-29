@@ -1,122 +1,113 @@
 .header__navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 0.5rem 1.5rem;
-    /* margin: 0.5rem 0.5625rem 0 0.5625rem; */
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    background-color: #090909;
-  }
-  
-  .header__navigation .navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .header__navigation .navigation .arrow-left {
-    margin-right: 0.5rem; /* é uma unidade relativa =~ 1rem */
-  }
-  
-  .arrow-left,
-  .arrow-right {
-    display: flex;
-    align-items: center; /* alinhar o conteúdo no centro (vertical) */
-    justify-content: center; /* alinhar o conteúdo no centro (horizontal) */
-  
-    width: 2rem;
-    height: 2rem;
-    background-color: var(--bg-arrow-color);
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .header__login {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header__search {
-    display: flex;
-    align-items: center;
-  
-    width: 22.75rem;
-    height: 3rem;
-    margin-left: 0.9375rem;
-    background-color: #242424;
-    border-radius: 6.25rem;
-    border: 0.0625rem solid transparent;
-  }
-  
-  .header__search:hover {
-    background-color: #2a2a2a;
-    border-radius: 6.25rem;
-    border: 0.0625rem solid #3a3a3a;
-  }
-  
-  .header__search:focus-within {
-    border: 0.125rem solid #fff; /* Define a borda branca quando a barra de pesquisa ou o input estão em foco */
-  }
-  
-  /* .header__search:active{
-      background-color: #2a2a2a;
-      border-radius: 6.25rem;
-      border: 0.0625rem solid #fff;
-  } */
-  
-  .header__search img {
-    width: 1rem;
-    height: 1rem;
-    margin-left: 0.80rem;
-  }
-  
-  .header__search input {
-    background: transparent;
-    border: none;
-    padding: 0 2.25rem 0 0.5rem;
-    height: 100%;
-    width: 82%;
-    color: #fff;
-    text-overflow: ellipsis; /* 3 pontinhos quando tem muito texto*/
-    overflow: hidden;
-    white-space: nowrap; /* deixar o texto em uma linha só */
-    outline: none;
-    font-size: 0.866rem;
-  }
-  
-  .header__login .subs {
-    color: #b3b3b3;
-    font-size: 0.934rem;
-    font-weight: 550;
-    background-color: transparent;
-    margin-right: 2rem;
-    border: none;
-    transition: transform 0.1s;
-    cursor: pointer;
-  }
-  
-  .header__login .subs:hover {
-    transform: scale(1.03);
-    color: #fff;
-  }
-  
-  .header__login .login {
-    width: 6.5rem;
-    height: 3rem;
-    color: #121212;
-    font-size: 0.934rem;
-    font-weight: 700;
-    border-radius: 2.5rem;
-    border: none;
-    transition: transform 0.1s;
-    cursor: pointer;
-  }
-  
-  .header__login .login:hover {
-    transform: scale(1.03);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  /* margin: 0.5rem 0.5625rem 0 0.5625rem; */
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: #090909;
+}
 
-  
+.header__navigation .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+  margin-right: 0.5rem;
+}
+
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center; /* alinhar o conteúdo no centro (vertical) */
+  justify-content: center; /* alinhar o conteúdo no centro (horizontal) */
+
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--bg-arrow-color);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+
+  width: 22.75rem;
+  height: 3rem;
+  margin-left: 0.9375rem;
+  background-color: #242424;
+  border-radius: 6.25rem;
+  border: 0.0625rem solid transparent;
+}
+
+.header__search:hover {
+  background-color: #2a2a2a;
+  border-radius: 6.25rem;
+  border: 0.0625rem solid #3a3a3a;
+}
+
+.header__search:focus-within {
+  border: 0.125rem solid #fff; /* Define a borda branca quando a barra de pesquisa ou o input estão em foco */
+}
+
+.header__search img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.8rem;
+}
+
+.header__search input {
+  background: transparent;
+  border: none;
+  padding: 0 2.25rem 0 0.5rem;
+  height: 100%;
+  width: 82%;
+  color: #fff;
+  text-overflow: ellipsis; /* 3 pontinhos quando tem muito texto*/
+  overflow: hidden;
+  white-space: nowrap; /* deixar o texto em uma linha só */
+  outline: none;
+  font-size: 0.866rem;
+}
+
+.header__login .subs {
+  color: #b3b3b3;
+  font-size: 0.934rem;
+  font-weight: 550;
+  background-color: transparent;
+  margin-right: 2rem;
+  border: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.header__login .subs:hover {
+  transform: scale(1.03);
+  color: #fff;
+}
+
+.header__login .login {
+  width: 6.5rem;
+  height: 3rem;
+  color: #121212;
+  font-size: 0.934rem;
+  font-weight: 700;
+  border-radius: 2.5rem;
+  border: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.header__login .login:hover {
+  transform: scale(1.03);
+}

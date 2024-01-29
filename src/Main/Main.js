@@ -28,18 +28,17 @@ import card18 from '../assets/playlist/Card18.jpg'
 import card19 from '../assets/playlist/Card19.jpg'
 import card20 from '../assets/playlist/Card20.jpg'
 
-const Main = () => {
-  // Main component que chama a Header para usar a props
+const Main = () => { // Main component que chama a Header para usar a props
 
-  // use state vai gerenciar o estado do valor da input
-  const [inputheader, setInputheader] = useState('')
+  const [inputheader, setInputheader] = useState('') // useState vai gerenciar o estado do valor da input
   const [single, setSingle] = useState([])
 
   useEffect(() => {
     /* se o valor da input for vazia */
     if (inputheader === '') {
-      return // n fazer nada
+      return // não faz nada
     }
+
     fetch(
       `https://imersao-alura-spotify-seven.vercel.app/artists?name_like=${inputheader}`
     )
@@ -48,13 +47,12 @@ const Main = () => {
       .catch((err) => console.error(`erro no fetch`, err))
   }, [inputheader])
 
-  // prop que tem o valor do input chama uma funcao shareDados que vamos criar agora
+  // prop que tem o valor do input chama uma função shareDados que vamos criar agora
   function shareDados(e) {
     //entao quando essa funcao for chamada
-    // essa var pega o valor e e deixa em minusculo
-    const valor = e.target.value.toLowerCase()
-    // valor é enviado para o inputHeader adicionando o fetch
-    setInputheader(valor)
+    const valor = e.target.value.toLowerCase() // essa var pega o valor e e deixa em minusculo
+    
+    setInputheader(valor) // valor é enviado para o inputHeader adicionando o fetch
   }
 
   return (
@@ -290,24 +288,27 @@ const Main = () => {
           </div>
 
           <div id="result-artist">
+
             {inputheader !== '' && (
-                <h2 className="artist-title">Artistas</h2>
+              <h2 className="artist-title">Artistas</h2>
             )}
+
             <div className="grid-container">
-              {/* só vai ser exibido quando tiver diferente de vazio, ou seja se o usuario digitar alguma coisa */}
+              {/* só vai ser exibido quando tiver diferente de vazio, ou seja, se o usuario digitar alguma coisa */}
               {inputheader !== '' &&
-                 single.slice(0, 5).map((value, ind) => (
+                single.slice(0, 5).map((value, ind) => (
                   <React.Fragment key={ind}>
                     
                     <div className="artist-card">
-                        <img
-                        src={value.urlImg}
-                        id="artist-img"
-                        className="artist-img"
-                        />
-                        <div class="play">
-                            <span><FontAwesomeIcon icon={faPlay} /></span>
-                        </div>
+                      <img
+                      src={value.urlImg}
+                      id="artist-img"
+                      className="artist-img"
+                      />
+
+                      <div class="play">
+                        <span><FontAwesomeIcon icon={faPlay} /></span>
+                      </div>
 
                       <div className="card-text">
                         <a title="Foo Fighters" className="vst" href=""></a>

@@ -1,47 +1,51 @@
 .disclaimer-premium {
-    position: fixed;
-    bottom: 0; /* distancia do footer pra parte de baixo da página*/
-    right: 0;
-    left: 0;
-    color: white;
-    background: linear-gradient(to right, #392770, #1ed760); /* começa da esquerda pra direita*/
-    padding: 0rem 0 0rem 1rem;
-    margin: 0rem 0.3125rem 0.5rem 0.5rem;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: fixed;
+  bottom: 0; /* distancia do footer pra parte de baixo da página*/
+  right: 0;
+  left: 0;
+  color: white;
+  background: linear-gradient(
+    to right,
+    #392770,
+    #1ed760
+  ); /* começa da esquerda pra direita*/
+  padding: 0rem 0 0rem 1rem;
+  margin: 0rem 0.3125rem 0.5rem 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .disclaimer-premium .footer__content {
-    flex-shrink: 0; /* deixar o menor possível o espaço*/
+  flex-shrink: 0; /* deixar menor possível o espaço*/
 }
 
-.disclaimer-premium .disclaimer-premiumtitle{
-    font-size: 0.866rem;
-    font-weight: 550;
-    margin-bottom: -0.6875rem;
+.disclaimer-premium .disclaimer-premiumtitle {
+  font-size: 0.866rem;
+  font-weight: 550;
+  margin-bottom: -0.6875rem;
 }
 
-.disclaimer-premium .disclaimer-premiumsubtitle{
-    font-weight: 500;
-    font-size: 0.934rem;
+.disclaimer-premium .disclaimer-premiumsubtitle {
+  font-weight: 500;
+  font-size: 0.934rem;
 }
 
-.disclaimer-premium button{
-    color: #121212;
-    background-color: #fff;
-    border: 0;
-    border-radius: 2.5rem;
-    padding: 1rem 1.875rem;
-    cursor: pointer;
-    font-size: 0.934rem;
-    font-weight: 550;
-    margin-inline-end: 1.5rem;
-    flex-shrink: 0;
-    transition: transform 0.1s;
+.disclaimer-premium button {
+  color: #121212;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2.5rem;
+  padding: 1rem 1.875rem;
+  cursor: pointer;
+  font-size: 0.934rem;
+  font-weight: 550;
+  margin-inline-end: 1.5rem;
+  flex-shrink: 0;
+  transition: transform 0.1s;
 }
 
-.disclaimer-premium button:hover{
-    transform: scale(1.03);
+.disclaimer-premium button:hover {
+  transform: scale(1.03);
 }
