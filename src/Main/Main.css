@@ -189,7 +189,7 @@ h2 {
   border-radius: 0.5rem;
 }
 
-.cards:hover img {
+/* .cards:hover img {
   position: relative;
   overflow: hidden;
   position: absolute;
@@ -207,7 +207,7 @@ h2 {
 
 .cards img {
   transition: transform 0.4s linear;
-}
+} */
 
 .cards span {
   padding: 1rem;
